@@ -12,7 +12,7 @@
 <body>
 	
 	<div id="wrap">
-		<c:import url="WEB-INF/jsp/include/header.jsp" />
+		<c:import url="/WEB-INF/jsp/include/header.jsp" />
 		<section class="contents d-flex justify-content-center">
 			<div class="join-box my-5">
 				<h2 class="text-center">회원 가입</h2>
@@ -23,8 +23,8 @@
 				<input type="text" class="form-control mt-3" placeholder="이메일">
 				<button class="btn btn-secondary btn-block mt-4" type="button">가입</button>
 			</div>
-		<c:import url="WEB-INF/jsp/include/footer.jsp" />
-		</section>	
+		</section>
+		<c:import url="/WEB-INF/jsp/include/footer.jsp" />	
 	</div>
 	
 	
